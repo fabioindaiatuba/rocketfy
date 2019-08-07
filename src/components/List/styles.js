@@ -16,9 +16,22 @@ export const Container = styled.div`
     height: 42px;
 
     h2 {
+      font-weight: 500;
+      font-size: 16px;
+      padding: 0 10px;
     }
 
     button {
+      height: 42px;
+      width: 42px;
+      border-radius: 18px;
+      background: #3b5bfd;
+      border: 0;
+      cursor: pointer;
     }
+  }
+
+  ul {
+    margin-top: 30px;
   }
 `;
